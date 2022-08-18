@@ -1,0 +1,79 @@
+body{
+  background-image: url("images/pattern-background-desktop.svg");
+}
+
+h1, h5, p, a{
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+/*Cards*/
+.main-card{
+  max-width: 28rem;
+  margin-top: 10%;
+  border-radius: 10px;
+}
+
+.sub-card{
+  margin: 5% 5%;
+  background-color: hsl(225, 100%, 98%);
+  border: none;
+}
+
+.card-body{
+  padding: 10%;
+}
+
+.e{
+  display: inline-block;
+  margin-left: 3%;
+  text-align: left;
+}
+
+/*Buttons*/
+.btn-primary{
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 10px 5px 5px hsl(224, 23%, 55%);
+  border-radius: 7.5px;
+}
+
+.btn{
+  padding: 2.5%;
+}
+
+/*Text*/
+.f-sTitle{
+  font-size: 1.75rem;
+}
+
+.f-s16{
+  font-size: 16px;
+}
+
+.f-w500{
+  font-weight: 500;
+}
+.f-w700{
+  font-weight: 700;
+}
+.f-w900{
+  font-weight: 900;
+}
+.f-cZinc{
+  color: hsl(224, 23%, 55%);
+}
+.text-center{
+  text-align: center;
+}
+
+.right-aligned{
+  text-align: right;
+}
+
+.card-text{
+  margin: 5% 0;
+}
+
+
+/*Signature*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
