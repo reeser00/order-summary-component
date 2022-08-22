@@ -1,6 +1,4 @@
-body{
-  background-image: url("images/pattern-background-desktop.svg");
-}
+
 
 h1, h5, p, a{
   font-family: 'Red Hat Display', sans-serif;
@@ -14,9 +12,10 @@ h1, h5, p, a{
 }
 
 .sub-card{
-  margin: 5% 5%;
+  margin: 5% 0;
   background-color: hsl(225, 100%, 98%);
   border: none;
+  padding: 0;
 }
 
 .card-body{
@@ -24,9 +23,17 @@ h1, h5, p, a{
 }
 
 .e{
-  display: inline-block;
+  float: left;
+  margin-left: 6%;
+  text-align: left;
+  height: 50px;
+}
+
+.e1{
+  float: right;
   margin-left: 3%;
   text-align: left;
+  height: 50px;
 }
 
 /*Buttons*/
@@ -73,6 +80,20 @@ h1, h5, p, a{
   margin: 5% 0;
 }
 
+.rounded-3{
+  border-radius: 75px;
+}
+.back{
+  position: absolute;
+}
+.inner-body{
+  padding: 2%;
+  vertical-align: middle;
+}
+.padd{
+  padding: 3% 2% 0 0;
+
+}
 
 /*Signature*/
 .attribution { font-size: 11px; text-align: center; }
